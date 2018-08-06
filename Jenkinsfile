@@ -15,7 +15,7 @@ pipeline {
 		}
 		stage('Build') {
 			steps {
-				sh 'npm run test:headless'
+				sh 'npm run test:ci'
 			}
 		}
 	}
